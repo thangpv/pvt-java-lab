@@ -43,6 +43,7 @@
 		<beans:property name="annotatedClasses">
 			<beans:list>
 				<beans:value>com.fwa.lab.mygset.model.Person</beans:value>
+				<beans:value>com.fwa.lab.mygset.model.Book</beans:value>
 			</beans:list>
 		</beans:property>
 		<beans:property name="hibernateProperties">
