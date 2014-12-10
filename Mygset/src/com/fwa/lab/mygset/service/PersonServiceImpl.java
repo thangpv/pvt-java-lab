@@ -28,13 +28,11 @@ public class PersonServiceImpl implements PersonService {
 	}
 
 	@Override
-	@Transactional
 	public List<Person> listPersons() {
 		return this.personDAO.listPersons();
 	}
 
 	@Override
-	@Transactional
 	public Person getPersonById(int id) {
 		return this.personDAO.getPersonById(id);
 	}
